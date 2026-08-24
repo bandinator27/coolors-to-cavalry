@@ -1,8 +1,8 @@
 # coolors-to-cavalry
 
-A simple python script that converts a [Coolors](https://coolors.co/) palette into a Cavalry compatible one.
+A simple python script that converts a [Coolors](https://coolors.co/) palette into a [Cavalry](https://cavalry.studio/en/) compatible one.
 
-One of Coolors' export options under 'Code' is 'Object'. This script takes that and creates a `.pal` file that can be imported into Cavalry.
+One of Coolors' export options under 'Code' is 'Object'. This script takes that and creates a `.pal` file that can be imported in Cavalry.
 
 ## Example
 
@@ -37,5 +37,18 @@ Cavalry palette `summer ocean breeze.pal`:
 ```
 
 ---
+
+## Usage
+
+1. Open [`cavalry-convert.py`](https://github.com/bandinator27/coolors-to-cavalry/blob/main/cavalry-convert.py) in your favorite text editor
+2. Replace `coolor_code`'s content with the coolors object
+3. Edit `palette_name`
+4. Save and run the script:
+
+    ```bash
+    python cavalry-convert.py
+    ```
+
+5. The created `.pal` file then can be imported in Cavalry
 
 The script won't override an already existing file unless you type `y` when prompted.
